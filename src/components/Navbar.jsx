@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react';
-import '../css/navbar.css';
+import '../css/Navbar.css';
 
 function Navbar({ toggleTheme, darkMode }) {
     const [menuActive, setMenuActive] = useState(false);
